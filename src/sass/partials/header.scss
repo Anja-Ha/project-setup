@@ -2,10 +2,11 @@
 .m-header {
     display: flex;
     align-items: center;
-    background-color:;
+    background-color: $color-token-primary2;
     box-sizing: border-box;
-    padding: $unit-xs;
-    color: $color-foreground;
+    padding: $unit-token-xs;
+    color: $color-token-white;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: 
+    border-bottom-color: $color-token-primary2;
+     
