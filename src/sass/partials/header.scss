@@ -9,4 +9,45 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: $color-token-primary2;
-     
+
+.m-header__logo {
+    padding: $unit-token-xs;
+    font-weight: bold;
+    color: $color-primary;
+    font-size: $font-size-h1;
+ }
+    
+.m-header__navigation {
+     padding: $unit-token-xs;
+     display: none;
+
+     ul {
+        li {
+          display: inline-block;
+          margin-right: $unit-token-xs;
+  
+          a {
+            transition: all 0.2s;
+            color: $color-token-black;
+            text-decoration: none;
+  
+            &:hover {
+              color: $color-token-primary1;
+              text-decoration: underline;
+            }
+          }
+  
+          &.active {
+            a {
+              color: $color-token-secondary1;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+  
+      &.visible {
+        display: block;
+      }
+    }
+  }
