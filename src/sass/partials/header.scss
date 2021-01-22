@@ -2,24 +2,25 @@
 .m-header {
     display: flex;
     align-items: center;
-    background-color: $color-token-primary2;
+    background-color: $color-token-secondary1;
     box-sizing: border-box;
     padding: $unit-token-xs;
     color: $color-token-white;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: $color-token-primary2;
+    border-bottom-color: $color-token-secondary1;
 
 .m-header__logo {
     padding: $unit-token-xs;
     font-weight: bold;
-    color: $color-primary;
+    color: $color-token-white;
     font-size: $font-size-h1;
  }
     
 .m-header__navigation {
      padding: $unit-token-xs;
      display: none;
+     font-size: $font-size-h3;
 
      ul {
         li {
@@ -39,7 +40,7 @@
   
           &.active {
             a {
-              color: $color-token-secondary1;
+              color: $color-token-primary1;
               text-decoration: underline;
             }
           }
